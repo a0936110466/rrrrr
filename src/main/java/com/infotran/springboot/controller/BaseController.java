@@ -8,7 +8,7 @@ public class BaseController {
 	@GetMapping("/")
 	public String home() {
 		return "index";
-		//123
+		//123456
 	}
 	
 	@GetMapping("/_01_customer/index")
